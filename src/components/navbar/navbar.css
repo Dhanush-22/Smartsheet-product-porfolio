@@ -61,7 +61,10 @@
 
 .navbarOption:hover{
     transform: scale(1.02);
-    text-decoration: underline;
+    text-decoration: underline !important;
+    /* text-decoration-color: white !important; */
+    -webkit-text-decoration-color: #ffff; /* Safari */  
+     text-decoration-color: #ffff;
 }
 
 .navLinks{
@@ -69,7 +72,6 @@
     align-items: center;
     cursor: pointer;
     color: #ffff;
-    text-decoration:"none"
 }
 
 
