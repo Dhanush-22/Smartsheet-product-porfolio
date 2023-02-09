@@ -1,0 +1,21 @@
+.imgpar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.guidebox{
+    display: flex;
+    width: 100%;
+}
+.img1{
+    width: 100%;
+}
+.guidecontainer{
+    display: flex;
+    width: 100%;
+    padding:15px;
+    flex-direction: column;
+    
+
+}
+
