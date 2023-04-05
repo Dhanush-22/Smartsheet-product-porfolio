@@ -3,3 +3,27 @@
     justify-content: space-between;
     padding: 20px;
   }
+  .concontainer{
+    display: flex;
+    width: 100%;
+    padding:15px;
+    flex-direction: column;
+  }
+  .heading1{
+    color:#96a320;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .heading2{
+    color:#000000;
+    font-size: 24px;
+  }
+  .items{
+    padding:10px;
+    padding-top: 20px;
+    list-style-type: none;
+  }
+  .item{
+    display:flex;
+    line-height: 40px;
+  }

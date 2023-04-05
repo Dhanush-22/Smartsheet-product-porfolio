@@ -1,20 +1,21 @@
-
+import "./contact.css"
 export default function Contact() {
   return (
     <div>
-        <div className="contactst">
-            <div>
-                <h3 style={{ margin: 0 }}>Contact Us</h3>                    <p>Email: smartsheetteam@gmail.com</p>
-                <p>Phone: xx-xxx-xxxx-xx</p>
-                <p>Address: Tadepalligudem</p>
-            </div>
-            <div>
-                <h3 style={{ margin: 0 }}>Follow Us</h3>
-                <p>Facebook: @SMARTSHEETTEAM</p>
-                <p>Twitter: @SMARTSHEET24BY7</p>
-                <p>Instagram: @SMART_SHEET_24_7</p>
-            </div>
-        </div>
+      <div className="concontainer">
+        <h1 className="heading1">Contact Us</h1>
+        <p className="heading2">For any inquiries, please contact:</p>
+        <ul className="items">
+          <li className="item">Name: B DHANUSH</li>
+          <li className="item">Email: DHANUHSB@SMARTSHEET.COM</li>
+          <li className="item">Phone: 123-456-7890</li>
+        </ul>
+        <ul className="items">
+          <li className="item">Name: G C S S S N DHANENDRA</li>
+          <li className="item">Email: CHOHANG@SMARTSHEET.COM</li>
+          <li className="item">Phone: 123-456-7890</li>
+        </ul>
+      </div>
     </div>
   )
 }

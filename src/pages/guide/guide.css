@@ -21,6 +21,7 @@
     flex-direction: column;
     padding: 30px;
     gap: 30px;
+    background: linear-gradient(to right, #f9fbe7, #f0f4c3), linear-gradient(to right, #b2fab4, #80cbc4);
 }
 
 .segment{
@@ -61,5 +62,13 @@
     align-items: center;
 }
 
+.LinkItem{
+    padding:5px;
+    border:3px solid black;
 
+}
 
+.heading4{
+    font-weight: 500;
+    font-size: 20px;
+}

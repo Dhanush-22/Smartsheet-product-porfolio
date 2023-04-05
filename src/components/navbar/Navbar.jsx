@@ -20,18 +20,24 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className="navbarOption">
+                        <Link to="/Product" style={{textDecoration:"none"}}>
+                            <span className="navLinks">Product</span>
+                        </Link>
+                        
+                    </div>
+                    <div className="navbarOption">
                         <Link to="/Guide" style={{textDecoration:"none"}}>
                             <span className="navLinks">Guide</span>
                         </Link>
                     </div>
                     <div className="navbarOption">
-                        <Link to="/About" style={{textDecoration:"none"}}>
-                            <span className="navLinks">About</span>
+                        <Link to="/Contact" style={{textDecoration:"none"}}>
+                            <span className="navLinks">Contact</span>
                         </Link>
                     </div>
                     <div className="navbarOption">
-                        <Link to="/Contact" style={{textDecoration:"none"}}>
-                            <span className="navLinks">Contact</span>
+                        <Link to="/developers" style={{textDecoration:"none"}}>
+                            <span className="navLinks">Contributors</span>
                         </Link>
                     </div>
                 </div>

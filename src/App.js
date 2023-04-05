@@ -1,10 +1,11 @@
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import Home from "./pages/home/Home";
-import About from "./pages/about/About";
 import Guide from "./pages/guide/Guide";
 import Contact from "./pages/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Product from "./pages/product/Product"
+import About from "./pages/about/About";
 
 function App() {
   return (
@@ -17,14 +18,17 @@ function App() {
          <Route path='/home' 
           element={<Navigate to="/"/>}
         />
-        <Route exact path="/about" 
-          element= {<About/>} 
+        <Route path='/product' 
+          element={<Product/>}
         />
         <Route exact path="/guide" 
           element= {<Guide/>} 
         />
-        <Route exact path="/Contact" 
+        <Route exact path="/developers" 
           element= {<Contact/>} 
+        />
+        <Route exact path="/contact" 
+          element= {<About/>} 
         />
         {/*
         <Route path='/register' 

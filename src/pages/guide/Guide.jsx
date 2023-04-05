@@ -83,7 +83,7 @@ export default function Guide() {
                   </ul>
                 </div>
                 <div className="" style={{paddingLeft: "120px" }}>
-                  <img style={{ width: "55%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled.png"} alt=""></img>
+                  <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled.png"} alt=""></img>
                 </div>
                 {/* </div> */}
 
@@ -98,7 +98,7 @@ export default function Guide() {
                     Initialize.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "55%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled1.png"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled1.png"} alt=""></img>
                   </div>
                   <li className="listItem">
                     Once Initialization has been done, go to the page Run by
@@ -118,17 +118,156 @@ export default function Guide() {
                 demonstrated below:</p>
               <p className="heading2">Configuration 1 :</p>
             </div>
-
+            <div className="segment">
+              <div className="listContainer">
+                <ul className="listItems">
+                  <li className="listItem">
+                    Assume I have the following data in my sheet.
+                  </li>
+                  <li className="listItem">
+                    My task is to fill the second column “CEO” with this APP.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img1.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    For that we are expected to run this prompt “Who is the CEO of ” for every selected cell and choose proper number of Tokens.
+                  </li>
+                  <li className="listItem">
+                    Enter the prompt and enter number of tokens.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img2.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                  Now select the cells that are needed to be filled with the OpenAI and check the following options “Selected Cell(s)” and “Once for each cell”
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img3.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    Click on Run.
+                  </li>
+                  <div className="LinkItem">
+                    <a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de41d3e0-57fc-4d2f-8d1d-5ed09e9e785e/Untitled.mp4">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de41d3e0-57fc-4d2f-8d1d-5ed09e9e785e/Untitled.mp4</a>
+                  </div>
+                  <li className="listItem">
+                    The above configuration is suitable when you need to fill values in only selected cells and no need to fill the entire column.
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="segment" style={{marginTop:"20px"}}>
               <p className="heading2">Configuration 2 :</p>
             </div>
-
+            <div className="segment">
+              <div className="listContainer">
+                <ul className="listItems">
+                  <li className="listItem">
+                    You can also do the same thing that has shown above by choosing the options “Select by column”  {">"} Select header and “Once for each cell”. This configuration is helpful when the entire column is to be filled.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config2img1.jpg"} alt=""></img>
+                  </div>
+                </ul>
+              </div>
+            </div>
             <div className="segment" style={{marginTop:"20px"}}>
               <p className="heading2">Configuration 3 :</p>
+            </div>  
+            <div className="segment">
+              <div className="listContainer">
+                <ul className="listItems">
+                  <li className="listItem">
+                    Assume I have the following data in my sheet.
+                  </li>
+                  <li className="listItem">
+                    My task is to find the weighted average of the data.
+                  </li>
+                  <li className="listItem">
+                    For that, select the cells & enter appropriate prompt.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img1.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    Choose the appropriate options and click on Run.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img2.jpg"} alt=""></img>
+                  </div>
+                  <div>
+                    <p className="heading4">Result:</p>
+                  </div>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img3.jpg"} alt=""></img>
+                  </div>
+                </ul>
+              </div>
             </div>
-
             <div className="segment" style={{marginTop:"20px"}}>
               <p className="heading2">Configuration 4 :</p>
+            </div>
+            <div className="segment">
+              <div className="listContainer">
+                <ul className="listItems">
+                  <li className="listItem">
+                    Assume I have the following data in my sheet.
+                  </li>
+                  <li className="listItem">
+                    My task is to filter the mobile company names from the column1.
+                  </li>
+                  <li className="listItem">
+                    For that, enter appropriate prompt “Get all mobile companies from the following: “.
+                  </li>
+                  <li className="listItem">
+                    Select the options “select an entire column” and “Once for selection”.
+                  </li>
+                  <li className="listItem">
+                    Click on Run.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config4img1.jpg"} alt=""></img>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div className="segment" style={{marginTop:"20px"}}>
+              <p className="heading2">Custom Function </p>
+            </div>
+            <div className="segment">
+              <div className="listContainer">
+                <ul className="listItems">
+                  <li className="listItem">
+                    runOpenAI(prompt)
+                  </li>
+                  <li className="listItem">
+                    Usage:
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg1.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    Hit enter
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg2.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    Parameter passing :
+                  </li>
+                  <li className="listItem">
+                    Use concat() whenever needed to attach some parameter.
+                  </li>
+                  <div className="" style={{paddingLeft: "80px" }}>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg3.jpg"} alt=""></img>
+                  </div>
+                  <li className="listItem">
+                    Then drag the result of one cell to apply the same function to other companies.
+                  </li>
+                  
+                </ul>
+              </div>
             </div>
           </div>
         </div>
