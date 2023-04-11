@@ -1,7 +1,11 @@
 import "./guide.css";
 
+import g1 from "./guide1.jpg"
+import U1 from "./Untitled.png"
+
+
 export default function Guide() {
-  const imgUrl = "http://localhost:3000/assets/";
+  const imgUrl = "./";
   return (
     <>
       <div className="guidebox">
@@ -9,7 +13,7 @@ export default function Guide() {
           <div className="startImg">
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              src={imgUrl + "guide1.jpg"}
+              src={g1}
               alt=""
             ></img>
           </div>
@@ -83,7 +87,7 @@ export default function Guide() {
                   </ul>
                 </div>
                 <div className="" style={{paddingLeft: "120px" }}>
-                  <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled.png"} alt=""></img>
+                  <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={U1} alt=""></img>
                 </div>
                 {/* </div> */}
 

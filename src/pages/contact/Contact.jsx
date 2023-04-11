@@ -1,5 +1,6 @@
 import "./contact.css";
 import {FacebookOutlined, LinkedIn, GitHub} from  "@mui/icons-material"
+import pic1 from "./IMG20230102174427-01.jpeg"
 
 
 export default function Contact() {
@@ -9,7 +10,7 @@ export default function Contact() {
         <div className="f_card">
           <div className="f_content">
             <div className="f_img">
-              <img src="https://drive.google.com/file/d/1X5aL6BQb-Q399bUOrfimPkVvc4NnS213/view?usp=drivesdk"></img>
+              <img src={pic1}></img>
             </div>
             <div className="f_cardContent">
                 <h3>Dhanush Bedre</h3>
@@ -41,6 +42,7 @@ export default function Contact() {
           <div className="f_content">
             <div className="f_img">
               <img src="https://archive.nptel.ac.in/content/noc/NOC22/SEM2/Candidate_photos/chohanganji2004@gmail.com_photo.jpeg"></img>
+              {/* <img src="../../assets/guide1.jpg"></img> */}
             </div>
             <div className="f_cardContent">
                 <h3>Chohan Dhanendra G</h3>
