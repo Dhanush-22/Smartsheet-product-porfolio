@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="homeContainer">
           {/* <img src ={pic1}  alt="pic1"></img> */}
-          Here
+          Here...
           <CheckCircleOutlineOutlined/>
           <PanoramaFishEyeOutlined/>
       </div>
