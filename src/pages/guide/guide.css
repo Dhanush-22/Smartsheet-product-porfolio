@@ -21,7 +21,7 @@
     flex-direction: column;
     padding: 30px;
     gap: 30px;
-    background: linear-gradient(to right, #f9fbe7, #f0f4c3), linear-gradient(to right, #b2fab4, #80cbc4);
+    /* background: linear-gradient(to right, #f9fbe7, #f0f4c3), linear-gradient(to right, #b2fab4, #80cbc4); */
 }
 
 .segment{
