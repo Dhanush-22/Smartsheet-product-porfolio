@@ -2,10 +2,21 @@ import "./guide.css";
 
 import g1 from "./guide1.jpg"
 import U1 from "./Untitled.png"
+import u2 from "./Untitled1.png"
+import c1i1 from "./config1img1.jpg"
+import c1i2 from "./config1img2.jpg"
+import c1i3 from "./config1img3.jpg"
+import c2i1 from "./config2img1.jpg"
+import c3i1 from "./config3img1.jpg"
+import c3i2 from "./config3img2.jpg"
+import c3i3 from "./config3img3.jpg"
+import c4i1 from "./config4img1.jpg"
+import cu1 from "./cusimg1.jpg"
+import cu2 from "./cusimg2.jpg"
+import cu3 from "./cusimg3.jpg"
 
 
 export default function Guide() {
-  const imgUrl = "./";
   return (
     <>
       <div className="guidebox">
@@ -102,7 +113,7 @@ export default function Guide() {
                     Initialize.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "Untitled1.png"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={u2} alt=""></img>
                   </div>
                   <li className="listItem">
                     Once Initialization has been done, go to the page Run by
@@ -132,7 +143,7 @@ export default function Guide() {
                     My task is to fill the second column “CEO” with this APP.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img1.jpg"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={c1i1} alt=""></img>
                   </div>
                   <li className="listItem">
                     For that we are expected to run this prompt “Who is the CEO of ” for every selected cell and choose proper number of Tokens.
@@ -141,13 +152,13 @@ export default function Guide() {
                     Enter the prompt and enter number of tokens.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img2.jpg"} alt=""></img>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={c1i2} alt=""></img>
                   </div>
                   <li className="listItem">
                   Now select the cells that are needed to be filled with the OpenAI and check the following options “Selected Cell(s)” and “Once for each cell”
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config1img3.jpg"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={c1i3} alt=""></img>
                   </div>
                   <li className="listItem">
                     Click on Run.
@@ -171,7 +182,7 @@ export default function Guide() {
                     You can also do the same thing that has shown above by choosing the options “Select by column”  {">"} Select header and “Once for each cell”. This configuration is helpful when the entire column is to be filled.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config2img1.jpg"} alt=""></img>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={c2i1} alt=""></img>
                   </div>
                 </ul>
               </div>
@@ -192,19 +203,19 @@ export default function Guide() {
                     For that, select the cells & enter appropriate prompt.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img1.jpg"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={c3i1} alt=""></img>
                   </div>
                   <li className="listItem">
                     Choose the appropriate options and click on Run.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img2.jpg"} alt=""></img>
+                    <img style={{ width: "25%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={c3i2} alt=""></img>
                   </div>
                   <div>
                     <p className="heading4">Result:</p>
                   </div>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config3img3.jpg"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={c3i3} alt=""></img>
                   </div>
                 </ul>
               </div>
@@ -231,7 +242,7 @@ export default function Guide() {
                     Click on Run.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "config4img1.jpg"} alt=""></img>
+                    <img style={{ width: "63%", height: "350px", marginTop: "5px", marginBottom: "5px" }} src={c4i1} alt=""></img>
                   </div>
                 </ul>
               </div>
@@ -249,13 +260,13 @@ export default function Guide() {
                     Usage:
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg1.jpg"} alt=""></img>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={cu1} alt=""></img>
                   </div>
                   <li className="listItem">
                     Hit enter
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg2.jpg"} alt=""></img>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={cu2} alt=""></img>
                   </div>
                   <li className="listItem">
                     Parameter passing :
@@ -264,7 +275,7 @@ export default function Guide() {
                     Use concat() whenever needed to attach some parameter.
                   </li>
                   <div className="" style={{paddingLeft: "80px" }}>
-                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={imgUrl + "cusimg3.jpg"} alt=""></img>
+                    <img style={{ width: "70%", height: "400px", marginTop: "5px", marginBottom: "5px" }} src={cu3} alt=""></img>
                   </div>
                   <li className="listItem">
                     Then drag the result of one cell to apply the same function to other companies.
