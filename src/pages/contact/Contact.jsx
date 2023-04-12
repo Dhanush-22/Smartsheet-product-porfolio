@@ -19,19 +19,19 @@ export default function Contact() {
           </div>
           <ul className="f_sci">
             <li style={{ "--i": "1" }}>
-              <a href="#">
+              <a href="https://www.facebook.com/dhanush.bedre">
                 {/* <i className="fa fo-facebook" aria-hidden="true"></i> */}
                 <FacebookOutlined className="socialIcon"/>
               </a>
             </li>
             <li style={{ "--i": "2" }}>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/dhanush-bedre-49454622b">
                 {/* <i className="fa fa-instagram" aria-hidden="true"></i> */}
                 <LinkedIn className="socialIcon"/>
               </a>
             </li>
             <li style={{ "--i": "3" }}>
-              <a href="#">
+              <a href="https://github.com/dhanush-22/">
                 {/* <i className="fa fa-github" aria-hidden="true"></i> */}
                 <GitHub className="socialIcon"/>
               </a>
@@ -51,19 +51,19 @@ export default function Contact() {
           </div>
           <ul className="f_sci">
             <li style={{ "--i": "1" }}>
-              <a href="#">
+              <a href="https://www.facebook.com/chohan.dhanendra">
                 {/* <i className="fa fo-facebook" aria-hidden="true"></i> */}
                 <FacebookOutlined className="socialIcon"/>
               </a>
             </li>
             <li style={{ "--i": "2" }}>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/ganji-chohan-sri-satya-sai-naga-dhanendra-00880821a/">
                 {/* <i className="fa fa-instagram" aria-hidden="true"></i> */}
                 <LinkedIn className="socialIcon"/>
               </a>
             </li>
             <li style={{ "--i": "3" }}>
-              <a href="#">
+              <a href="https://github.com/CHOHAN2004">
                 {/* <i className="fa fa-github" aria-hidden="true"></i> */}
                 <GitHub className="socialIcon"/>
               </a>

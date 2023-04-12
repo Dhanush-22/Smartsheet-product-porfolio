@@ -67,7 +67,7 @@ export default function Product() {
             <hr className="hrLine" />
         </div>
         <div className="segment">
-          <div className="listcontainer">
+          <div className="listcontainer2">
             <div className="leftitems">
               <ul className="items">
                 <li className="item"><div className="circel"><PanoramaFishEyeOutlined/></div>
