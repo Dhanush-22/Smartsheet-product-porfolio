@@ -13,13 +13,13 @@ function App() {
       <Navbar/>
       <Routes>
         <Route exact path="/" 
-          element= {<Home/>} 
+          element= {<Product/>} 
         />
-         <Route path='/home' 
+         {/* <Route path='/home' 
           element={<Navigate to="/"/>}
-        />
+        /> */}
         <Route path='/product' 
-          element={<Product/>}
+          element={<Navigate to="/"/>}
         />
         <Route exact path="/guide" 
           element= {<Guide/>} 

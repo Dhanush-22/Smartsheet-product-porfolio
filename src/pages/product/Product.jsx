@@ -4,24 +4,30 @@ import {CheckCircleOutlineOutlined, PanoramaFishEyeOutlined} from  "@mui/icons-m
 
 
 export default function Product() {
+  const description = "Smart Sheet is a great tool for users who need to generate large volumes of data quickly and easily. Whether you're a data analyst, researcher, or just need to fill in a large spreadsheet with generated data, Smart Sheet can help you get the job done efficiently.                                      With Smart Sheet, users can easily enter their OpenAI API key in the sidebar and use the provided prompt to generate data. The generated data can be automatically filled in selected cells or columns in Google Sheets based on the selected options such as number of tokens or selected cells.                                                                Try Smart Sheet today and experience the power of OpenAI's API combined with the ease and convenience of Google Sheets!";
+
+
   const imgUrl = "http://localhost:3000/assets/";
   return (
     <>
       <div className="productContainer">
-        <div className="segment" style={{marginTop:"20px"}}>
-            <p className="heading1" >Smart Sheet<br/><hr/> </p>
+        <div id="segment" style={{marginTop:"20px"}}>
+            <span id="heading1" >Smart Sheet</span>
+            <hr className="hrLine" />
         </div>
-        <div class="text">
-          <p>Smart Sheet is a great tool for users who need to generate large volumes of data quickly and easily. Whether you're a data analyst, researcher, or just need to fill in a large spreadsheet with generated data, Smart Sheet can help you get the job done efficiently.                                      With Smart Sheet, users can easily enter their OpenAI API key in the sidebar and use the provided prompt to generate data. The generated data can be automatically filled in selected cells or columns in Google Sheets based on the selected options such as number of tokens or selected cells.                                                                Try Smart Sheet today and experience the power of OpenAI's API combined with the ease and convenience of Google Sheets!</p>
+        <div className="text">
+          <p>{description}</p>
         </div>
-        <div className="segment" style={{marginTop:"20px"}}>
-            <p className="heading2" >Existing Features<br/><hr/> </p>
+        <div id="segment" style={{marginTop:"20px"}}>
+            <span id="heading2" >Existing Features</span>
+            <hr className="hrLine" />
         </div>
         <div className="segment">
           <div className="listcontainer">
             <div className="leftitems">
               <ul className="items">
-                <li className="item"><div className="circel"><CheckCircleOutlineOutlined/></div>
+                <li className="item">
+                  <div className="circel"><CheckCircleOutlineOutlined/></div>
                 Sidebar
                 </li>
                 <li className="item"><div className="circel"><CheckCircleOutlineOutlined/></div>
@@ -56,8 +62,9 @@ export default function Product() {
             </div>
           </div>
         </div>
-        <div className="segment" style={{marginTop:"20px"}}>
-            <p className="heading2" >Upcoming Features<br/><hr/> </p>
+        <div id="segment" style={{marginTop:"20px"}}>
+            <span id="heading3" >Upcoming Features</span>
+            <hr className="hrLine" />
         </div>
         <div className="segment">
           <div className="listcontainer">
@@ -98,19 +105,15 @@ export default function Product() {
             </div>
           </div>
         </div>
-        <div className="segment">
-          <div className="listcontainer">
-            <div>
-            <div className="heading2" >
-            Uniqueness of the product:
-            </div>
-            </div>
-          </div>
+
+        <div id="segment" style={{marginTop:"20px"}}>
+            <span id="heading3" style={{width:"30%"}} >Uniqueness of the product</span>
+            <hr className="hrLine" />
         </div>
         <div className="segment">
           <div className="listcontainer">
             <ol className="olitems" type="1">
-              <li className="olitem">
+              <li className="olitem"   style={{marginTop:"15px"}}>
                 <b>Integration with OpenAI API: </b>
                 Smart Sheet is one of the few tools that integrate with the OpenAI API, allowing users to generate data using advanced AI language models.
               </li>

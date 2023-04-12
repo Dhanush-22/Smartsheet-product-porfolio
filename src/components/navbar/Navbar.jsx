@@ -14,11 +14,11 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <div className="navRight">
-                    <div className="navbarOption">
+                    {/* <div className="navbarOption">
                         <Link to="/Home" style={{textDecoration:"none"}}>
                             <span className="navLinks">Home</span>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="navbarOption">
                         <Link to="/Product" style={{textDecoration:"none"}}>
                             <span className="navLinks">Product</span>
