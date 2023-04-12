@@ -1,28 +1,25 @@
 .navbarBox{
     width: 100%;
     height: 60px;
-
-    /* background: linear-gradient(to right, #212121, #484848, #636363, #757575, #9e9e9e); */
+    
     background: linear-gradient(to right, #13294b, #1c1c1c), linear-gradient(to left, #2f2f2f, #242424);
-    /* background: linear-gradient(to bottom, #00c6ff, #0072ff, #00c6ff); */
+    /* background: linear-gradient(to right, #212121, #484848, #636363, #757575, #9e9e9e); */
+    /* background: linear-gradient(to right, #262626, #1c1c1c), linear-gradient(to left, #2f2f2f, #242424); */
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 
-    /* background: linear-gradient(to right, #2196f3, #1abc9c); */
-    /* background: linear-gradient(to right, #1abc9c, #2196f3, #1abc9c); */
-    /* clip-path: circle(10% at 10% 10%); */
-    
-    
-
-
     display: flex;
     align-items: center; /* ----> Centres the items vertically */
-    position: sticky;
+    position: fixed;
 
-    /* top: 0; */
+    top: 0;
     z-index: 999;
     padding:0;
+    transition: transform 0.3s ease-in-out; /* Add a transition for a smooth effect */
 }
+.navbarBox.hidden {
+    transform: translateY(-100%);
+  }
 
 .container{
     width: 100%;
@@ -35,8 +32,8 @@
     flex: 1;
     display: flex;
     align-items: center;
-    padding-left: 2%;
-    gap: 2%;
+    padding-left: 25px;
+    gap: 18px;
 }
 
 
@@ -53,6 +50,8 @@
     color: #ffff;
 }
 
+
+
 .navRight{
     flex: 3;
     display: flex;
@@ -66,24 +65,19 @@
     align-items: center;
     cursor: pointer;
 }
-
 .navbarOption:hover{
     transform: scale(1.02);
     text-decoration: underline !important;
     /* text-decoration-color: white !important; */
     -webkit-text-decoration-color: #ffff; /* Safari */  
      text-decoration-color: #ffff;
+     color: white;
 }
 
 .navLinks{
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #ffff;
+    color: white;
+   
 }
-
-
-
-
-
-

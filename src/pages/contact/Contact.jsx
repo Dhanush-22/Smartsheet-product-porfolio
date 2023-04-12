@@ -14,7 +14,7 @@ export default function Contact() {
             </div>
             <div className="f_cardContent">
                 <h3>Dhanush Bedre</h3>
-                <span style={{'marginTop':"5px"}}>Full stack Developer</span>
+                <span style={{'marginTop':"5px", 'marginBottom' : "5px"}}>Full stack Developer</span>
             </div>
           </div>
           <ul className="f_sci">

@@ -163,9 +163,6 @@ export default function Guide() {
                   <li className="listItem">
                     Click on Run.
                   </li>
-                  <div className="LinkItem">
-                    <a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de41d3e0-57fc-4d2f-8d1d-5ed09e9e785e/Untitled.mp4">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de41d3e0-57fc-4d2f-8d1d-5ed09e9e785e/Untitled.mp4</a>
-                  </div>
                   <li className="listItem">
                     The above configuration is suitable when you need to fill values in only selected cells and no need to fill the entire column.
                   </li>
